@@ -5,44 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78567a34-ba12-486e-a753-832190f3d9a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/flyway.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/event/like_events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/messaging/rabbit_mq_producer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/engagement_db.frziuw/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/engagement_db.frziuw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/engagement_db.frziuw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/engagement_db.frziuw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/engagement_db.frziuw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/engagement_db.frziuw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6bf331e8-220b-4c96-be6c-71fbf999ced7/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/000001_create_subscriptions_table.down.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/000001_create_subscriptions_table.up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/V1__create_subscriptions_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/000002_create_likes_table.down.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/000002_create_likes_table.up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/V2__create_likes_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/bootstrap/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/bootstrap/container.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.24.6.darwin-arm64" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sayan80bayev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sayan80bayev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sayan80bayev/engagementService",
-    "accountId": "7b1ea440-dc94-4374-9991-aec389422b8e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sayan80bayev/engagementService&quot;,
+    &quot;accountId&quot;: &quot;7b1ea440-dc94-4374-9991-aec389422b8e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="33Xn8wPmdQC1YnzgppCYfXNupPG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Makefile Target.migrate-create.executor": "Run",
+    "Makefile Target.migrate-down.executor": "Run",
+    "Makefile Target.migrate-status.executor": "Run",
+    "Makefile Target.migrate-up.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.GoLinterPluginOnboarding": "true",
     "RunOnceActivity.GoLinterPluginStorageMigration": "true",
@@ -66,6 +90,40 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected="Makefile Target.migrate-status">
+    <configuration name="migrate-create" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="migrate-create" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate-down" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="migrate-down" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate-status" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="migrate-status" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate-up" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="migrate-up" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.migrate-status" />
+        <item itemvalue="Makefile Target.migrate-down" />
+        <item itemvalue="Makefile Target.migrate-create" />
+        <item itemvalue="Makefile Target.migrate-up" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
