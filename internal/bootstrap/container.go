@@ -46,9 +46,9 @@ func Init() (*Container, error) {
 	}
 
 	// Run database migrations
-	if err := runMigrations(db, cfg); err != nil {
-		return nil, fmt.Errorf("failed to run migrations: %w", err)
-	}
+	//if err := runMigrations(db, cfg); err != nil {
+	//	return nil, fmt.Errorf("failed to run migrations: %w", err)
+	//}
 
 	cacheService, err := initRedis(cfg)
 	if err != nil {
@@ -170,5 +170,10 @@ func buildJWKSURL(cfg *config.Config) string {
 }
 
 func buildAmqpURL(cfg *config.Config) string {
-	return fmt.Sprintf("ampq://%s:%s/%s:%s/", cfg.RabbitMQUser, cfg.RabbitMQPassword, cfg.RabbitMQHost, cfg.RabbitMQPort)
+	return fmt.Sprintf("amqp://%s:%s@%s:%s/",
+		cfg.RabbitMQUser,
+		cfg.RabbitMQPassword,
+		cfg.RabbitMQHost,
+		cfg.RabbitMQPort,
+	)
 }

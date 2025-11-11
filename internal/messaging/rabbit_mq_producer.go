@@ -68,8 +68,9 @@ func (p *RabbitProducer) Produce(ctx context.Context, eventType string, data int
 		false,
 		false,
 		amqp.Publishing{
-			ContentType: "application/json",
-			Body:        body,
+			ContentType:  "application/json",
+			DeliveryMode: amqp.Persistent,
+			Body:         body,
 		},
 	)
 	if err != nil {
