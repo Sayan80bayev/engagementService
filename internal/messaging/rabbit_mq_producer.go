@@ -16,7 +16,6 @@ type RabbitProducer struct {
 	logger   *logrus.Logger
 }
 
-// NewRabbitProducer creates a new producer connected to RabbitMQ.
 func NewRabbitProducer(amqpURL, exchange string, logger *logrus.Logger) (*RabbitProducer, error) {
 	conn, err := amqp.Dial(amqpURL)
 	if err != nil {
@@ -53,7 +52,6 @@ func NewRabbitProducer(amqpURL, exchange string, logger *logrus.Logger) (*Rabbit
 	}, nil
 }
 
-// Produce publishes a JSON-encoded message to the exchange using eventType as routing key.
 func (p *RabbitProducer) Produce(ctx context.Context, eventType string, data interface{}) error {
 	body, err := json.Marshal(data)
 	if err != nil {
